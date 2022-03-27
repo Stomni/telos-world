@@ -1,5 +1,6 @@
 .nav-bar {
-  width: 100%;
+  right: 2rem;
+  width: 40%;
   height: 7vh;
   justify-content: flex-end;
   align-items: center;

@@ -4,12 +4,12 @@ import {
   Popup,
   Polygon,
   ImageOverlay,
-  useMap,
+  ZoomControl,
 } from "react-leaflet";
 import L from "leaflet";
 
 import "./DemoraMap.css";
-import { useEffect, useRef, useState } from "react";
+
 import { palatinBorderData } from "../assets/PalatinBorderData";
 import { borrasBorderData } from "../assets/BorrasBorderData";
 
@@ -28,7 +28,9 @@ function DemoraMap(props: any) {
       zoom={0}
       bounds={bounds}
       id="map-container"
+      zoomControl={false}
     >
+      <ZoomControl position="bottomright"/>
       <ImageOverlay
         url="demora-clean.png"
         bounds={bounds}
