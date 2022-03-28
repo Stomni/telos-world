@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    background-color: rgb(35, 37, 39);
+}
+
+.home-screen {
+    
+}
+
+#title {
+    background-image: url("../assets/homeImg.jpg");
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#title h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#title h4 {
+    margin-top: .8rem;
+    text-align: center;
+}
