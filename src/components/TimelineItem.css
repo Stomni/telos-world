@@ -1,0 +1,8 @@
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

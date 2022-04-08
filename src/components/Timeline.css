@@ -1,0 +1,16 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 40px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline::after {
+    background-color: aliceblue;
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 4px;
+}

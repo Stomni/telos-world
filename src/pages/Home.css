@@ -3,12 +3,13 @@ body {
     background-color: rgb(35, 37, 39);
 }
 
-.home-screen {
-    
-}
 
 #title {
-    background-image: url("../assets/homeImg.jpg");
+    color: white;
+    background-image: url("../assets/forestHomeImg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 80vh;
     width: 100%;
     display: flex;

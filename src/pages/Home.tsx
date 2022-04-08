@@ -1,4 +1,6 @@
+import { Timeline } from "../components/Timeline";
 import "./Home.css";
+
 
 export function Home() {
   return (
@@ -11,6 +13,7 @@ export function Home() {
         </h1>
         <h4>A Fanatasy World <br/>created by<br/>Stefan Jackisch</h4>
       </div>
+      <Timeline/>
     </div>
   );
 }

@@ -21,7 +21,7 @@ export function DemoraMarkers() {
       >
         <Popup>
           <div>
-            <h2>City of Palatin</h2>
+            City of Palatin
           </div>
         </Popup>
       </Marker>
