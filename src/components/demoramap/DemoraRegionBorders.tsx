@@ -1,20 +1,18 @@
 import { useState } from "react";
 import { Polygon } from "react-leaflet";
-import { astonBorderData } from "../assets/AstonBorderData";
-import { borrasBorderData } from "../assets/BorrasBorderData";
-import { palatinBorderData } from "../assets/PalatinBorderData";
-import { salonaBorderData } from "../assets/SalonaBorderData";
-import { sinocardBorderData } from "../assets/SinocardBorderData";
-import { subarraBorderData } from "../assets/SubarraBorderData";
-import { territoryInfos } from "../assets/territoryInfos";
-import { Modal } from "./Modal";
+import { astonBorderData } from "../../assets/AstonBorderData";
+import { borrasBorderData } from "../../assets/BorrasBorderData";
+import { palatinBorderData } from "../../assets/PalatinBorderData";
+import { salonaBorderData } from "../../assets/SalonaBorderData";
+import { sinocardBorderData } from "../../assets/SinocardBorderData";
+import { subarraBorderData } from "../../assets/SubarraBorderData";
+import { territoryInfos } from "../../assets/territoryInfos";
+import { Modal } from "../modal/Modal";
 
-import alephiaflag from "../assets/alephiaflag.png";
 
 export function DemoraRegionBorders() {
   const [showModal, setShowModal] = useState(false);
   const [borderListIndex, setBorderListIndex] = useState(0);
-  const alephiaflag = require("../assets/alephiaflag.png");
   return (
     <>
       <Modal
@@ -26,7 +24,7 @@ export function DemoraRegionBorders() {
             <div className="info-box">
               <img src={territoryInfos[borderListIndex].flag} />
               <h6>
-                {"Einwohner: ca." + territoryInfos[borderListIndex].population}
+                {"Einwohner: ca. " + territoryInfos[borderListIndex].population}
               </h6>
               <h6>
                 {"Regierung: " + territoryInfos[borderListIndex].government}

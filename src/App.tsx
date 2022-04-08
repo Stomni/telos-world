@@ -1,10 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import DemoraMap from "./components/DemoraMap";
+import DemoraMap from "./components/demoramap/DemoraMap";
 
-import "./components/DemoraMap.css";
-import { NavBar } from "./components/NavBar";
+import { NavBar } from "./components/navbar/NavBar";
 import { Home } from "./pages/Home";
 
 function App() {

@@ -24,7 +24,15 @@
 .nav-links a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: white;
+    color: #E2FFFC;
+    transition-timing-function: ease-in-out;
+    transition: .3s;
+}
+
+.nav-links a:hover {
+    transition-timing-function: ease-in-out;
+    transition: .3s;
+    color: #00AA9F;
 }
 
 

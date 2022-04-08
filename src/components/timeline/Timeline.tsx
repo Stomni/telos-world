@@ -1,4 +1,4 @@
-import { historyEventData } from "../assets/HistoryEventData";
+import { historyEventData } from "../../assets/HistoryEventData";
 import { TimelineItem } from "./TimelineItem";
 
 import "./Timeline.css";

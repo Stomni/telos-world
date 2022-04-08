@@ -1,4 +1,4 @@
-import { Event } from "../assets/HistoryEventData";
+import { Event } from "../../assets/HistoryEventData";
 
 import "./TimelineItem.css";
 
