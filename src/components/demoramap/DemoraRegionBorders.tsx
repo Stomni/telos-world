@@ -22,7 +22,7 @@ export function DemoraRegionBorders() {
         children={
           <div className="modal-territory-content">
             <div className="info-box">
-              <img src={territoryInfos[borderListIndex].flag} />
+              <img src={territoryInfos[borderListIndex].flag} alt="Territory flag"/>
               <h6>
                 {"Einwohner: ca. " + territoryInfos[borderListIndex].population}
               </h6>
@@ -65,7 +65,7 @@ export function DemoraRegionBorders() {
           click: () => {
             setBorderListIndex(
               territoryInfos.findIndex(
-                (element) => element.name === "Borras Region"
+                (element) => element.name === "Borras Föderation"
               )
             );
             setShowModal(true);

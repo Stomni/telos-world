@@ -16,7 +16,7 @@ export function NavBar() {
           <Link to="/">Glossar</Link>
         </li>
         <li>
-          <Link to="/">About</Link>
+          <Link to="/timeline">Timeline</Link>
         </li>
       </ul>
     </nav>

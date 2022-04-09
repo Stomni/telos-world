@@ -35,7 +35,7 @@ export const territoryInfos: Territory[] = [
   {
     name: "Feuerreich",
     population: "8 Millionen",
-    government: "Aristokratie",
+    government: "Theokratie",
     ruler: "Kreis des Feuers",
     language: "Common",
     religion: ["Salona"],
@@ -43,9 +43,9 @@ export const territoryInfos: Territory[] = [
     desc: "",
   },
   {
-    name: "Borras Region",
+    name: "Borras Föderation",
     population: "350 Tausend",
-    government: "Aristokratie",
+    government: "Förderation",
     ruler: "Keiner",
     language: "Common",
     religion: ["Keine"],
@@ -55,7 +55,7 @@ export const territoryInfos: Territory[] = [
   {
     name: "Sinocard",
     population: "100 Tausend",
-    government: "Monarchie",
+    government: "Autokratie",
     ruler: "Xafirex",
     language: "Drakonisch",
     religion: ["Keine"],
@@ -65,7 +65,7 @@ export const territoryInfos: Territory[] = [
   {
     name: "Aston",
     population: "Unbekannt",
-    government: "Aristokratie",
+    government: "Oligarchie",
     ruler: "Zirkel des Waldes",
     language: "Elvisch",
     religion: ["Mondgöttin"],

@@ -1,5 +1,4 @@
 import { Recap } from "../components/recap/recap";
-import { Timeline } from "../components/timeline/Timeline";
 import "./Home.css";
 
 export function Home() {
@@ -19,7 +18,6 @@ export function Home() {
         </h4>
       </div>
       <Recap />
-      <Timeline />
       <footer className="home-footer">
         <div className="footer-links">
           <a>Contact</a>
