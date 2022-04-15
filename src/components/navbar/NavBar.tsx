@@ -13,7 +13,7 @@ export function NavBar() {
           <Link to="/demora">Continents</Link>
         </li>
         <li>
-          <Link to="/">Glossar</Link>
+          <Link to="/glossar">Glossar</Link>
         </li>
         <li>
           <Link to="/timeline">Timeline</Link>

@@ -191,4 +191,5 @@ export const palatinBorderData:number [] [] = [
     [1150,-5300],
     [1140,-5370],
     [1180,-5400],
+
 ];

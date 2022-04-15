@@ -4,9 +4,9 @@ import { recapData } from "../../assets/recapData";
 import { useState } from "react";
 
 export function Recap() {
-  const [recapIndex, setRecapIndex] = useState(0);
-  let index: number = recapIndex;
   const listLength: number = recapData.length - 1;
+  const [recapIndex, setRecapIndex] = useState(listLength);
+  let index: number = recapIndex;
   return (
     <div className="recap-container">
       <h5>Campaign Recap</h5>
@@ -15,6 +15,21 @@ export function Recap() {
         <p>{recapData[recapIndex].recap}</p>
       </div>
       <div className="recap-actions">
+        <button
+          onClick={() => {
+            if (recapIndex !== listLength) {
+              index++;
+              setRecapIndex(index);
+            }
+          }}
+          style={
+            recapIndex === listLength
+              ? { opacity: "0", cursor: "default" }
+              : { opacity: "1", cursor: "pointer" }
+          }
+        >
+          Previous
+        </button>
         <button
           onClick={() => {
             if (recapIndex !== 0) {
@@ -27,16 +42,6 @@ export function Recap() {
               ? { opacity: "0", cursor: "default" }
               : { opacity: "1", cursor: "pointer" }
           }
-        >
-          Previous
-        </button>
-        <button
-          onClick={() => {
-            if (listLength > recapIndex) {
-              index++;
-              setRecapIndex(index);
-            }
-          }}
         >
           Next
         </button>

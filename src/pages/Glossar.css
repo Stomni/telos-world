@@ -1,0 +1,27 @@
+.glossar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.glossar-sidebar {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    color: white;
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+
+.glossar-sidebar h5 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+.glossar-content {
+    flex: 4;
+    margin-top: 2.5rem;
+}

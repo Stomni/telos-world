@@ -26,9 +26,6 @@ export function DemoraMarkers() {
         </Popup>
       </Marker>
       <Marker position={[-950, 650]} title={"Stone Garden"} icon={flagIcon} />
-    
-
-
     </>
   );
 }

@@ -6,7 +6,7 @@ body {
 
 #title {
     color: white;
-    background-image: url("../assets/forestHomeImg.jpg");
+    background-image: url("../assets/forestHomeImg1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,13 +32,3 @@ body {
     font-size: 1.3rem;
 }
 
-.home-footer {
-    margin: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.footer-links a {
-    padding: 0 10px 0 10px;
-}

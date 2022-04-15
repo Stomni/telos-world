@@ -1,3 +1,4 @@
+import { Footer } from "../components/footer/Footer";
 import { Recap } from "../components/recap/recap";
 import "./Home.css";
 
@@ -18,14 +19,7 @@ export function Home() {
         </h4>
       </div>
       <Recap />
-      <footer className="home-footer">
-        <div className="footer-links">
-          <a>Contact</a>
-          <a>About</a>
-          <a>Terms</a>
-          <a>Report a bug</a>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 }

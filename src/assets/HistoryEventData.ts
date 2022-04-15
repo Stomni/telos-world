@@ -16,7 +16,7 @@ export const historyEventData: Event[] = [
   },
   {
     title: "Auftritt der Götter",
-    date: "0 a.D (after Divinity)",
+    date: "1 a.D (after Divinity)",
     timeSpan: undefined,
     place: undefined,
     desc: "Lorem Ipsum...",
@@ -26,7 +26,7 @@ export const historyEventData: Event[] = [
     date: "50 a.D",
     timeSpan: "100 Jahre",
     place: undefined,
-    desc: "Lorem Ipsum..",
+    desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
   },
   {
     title: "Verbannte Titanen",
@@ -35,8 +35,8 @@ export const historyEventData: Event[] = [
   },
   { title: "Arkanes Zeitalter", date: "850 a.D", desc: "" },
   { title: "Kataklysmus", date: "2000 a.D", desc: "", timeSpan: "100 Jahre" },
-  { title: "Lazerus Blockade", date: "2100 a.D", desc: "" },
-  { title: "Neue Titanen", date: "200 a.L", desc: "", place: "Demora" },
+  { title: "Lazarus Blockade", date: "2100 a.D", desc: "" },
+  { title: "Neue Titanen", date: "200 a.L (after Lazarus)", desc: "", place: "Demora" },
   { title: "Asche Fall", date: "400 a.L", desc: "", place: "Borras Region" },
   {
     title: "Aufmarsch von Palatin",
@@ -48,7 +48,7 @@ export const historyEventData: Event[] = [
     title: "Dunkle Sonne",
     date: "11. Kythorn 876",
     desc: "",
-    place: "Tal´Dorei",
+    place: "Thracian",
   },
   {
     title: "Titan Krieg",
@@ -64,7 +64,7 @@ export const historyEventData: Event[] = [
     place: "Demora",
   },
   {
-    title: "Beginn von Stone Garden Campaign",
+    title: "Beginn der Stone Garden Campaign",
     date: "15. Pharast 1107",
     desc: "",
     place: "Capsan, Demora",
