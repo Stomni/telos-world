@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    line-height: 1.5;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
 }
 img, canvas, svg {
@@ -21,7 +21,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 body::-webkit-scrollbar {
-    width: 2px;
+    width: 3px;
 }
 
 body::-webkit-scrollbar-thumb {

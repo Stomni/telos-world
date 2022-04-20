@@ -1,6 +1,6 @@
 import "./recap.css";
 
-import { recapData } from "../../assets/recapData";
+import { recapData } from "../../data/recapData";
 import { useState } from "react";
 
 export function Recap() {

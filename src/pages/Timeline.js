@@ -3,7 +3,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 import "./Timeline.css";
 
-import { historyEventData } from "../assets/HistoryEventData";
+import { historyEventData } from "../data/HistoryEventData";
 import { Footer } from "../components/footer/Footer";
 
 

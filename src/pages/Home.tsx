@@ -4,7 +4,7 @@ import "./Home.css";
 
 export function Home() {
   return (
-    <div className="home-screen">
+    <section className="home-screen">
       <div id="title">
         <h1>
           Welcome to
@@ -20,6 +20,6 @@ export function Home() {
       </div>
       <Recap />
       <Footer/>
-    </div>
+    </section>
   );
 }

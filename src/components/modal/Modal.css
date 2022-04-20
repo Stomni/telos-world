@@ -9,13 +9,18 @@
     z-index: 999;
 }
 
+.content {
+    height: 95%;
+}
+
 
 .container {
     height: clamp(50%, 300px, 30%);
     width: clamp(50%, 700px, 90%);
     background-color: whitesmoke;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: .5rem;
+    padding-bottom: .5rem;
     box-shadow: 0 20px 25px black;
     display: flex;
     flex-direction: column;
@@ -36,7 +41,6 @@ h2 {
 .modal-button {
     border: none;
     background-color: inherit;
-    padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
     display: flex;

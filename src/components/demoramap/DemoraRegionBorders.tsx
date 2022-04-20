@@ -6,7 +6,7 @@ import { palatinBorderData } from "../../assets/PalatinBorderData";
 import { salonaBorderData } from "../../assets/SalonaBorderData";
 import { sinocardBorderData } from "../../assets/SinocardBorderData";
 import { subarraBorderData } from "../../assets/SubarraBorderData";
-import { territoryInfos } from "../../assets/territoryInfos";
+import { territoryInfos } from "../../data/territoryInfos";
 import { Modal } from "../modal/Modal";
 
 

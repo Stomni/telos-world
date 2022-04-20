@@ -1,27 +1,98 @@
+
 .glossar-container {
     display: flex;
     flex-direction: row;
 }
 
 .glossar-sidebar {
+    position: fixed;
     display: flex;
     flex-flow: column;
     flex: 1;
+    top: 0;
+    left: 0;
+    right: 0;
     color: white;
-    width: 30%;
+    width: 15%;
     height: 100%;
-    padding: 1rem;
-    margin-top: 2.5rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    text-align: center;
+    
+    background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
 }
 
 .glossar-sidebar h5 {
     text-align: center;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 3rem;
     
 }
 
+.glossar-sidebar-items {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.glossar-sidebar-items h4 {
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.glossar-sidebar-items h4:hover {
+    transition: all 0.3s ease-in-out;
+    color: #00aa9f;
+
+}
+
 .glossar-content {
-    flex: 4;
-    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 7.5rem;
+    padding: 1rem;
+    width: 85%;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.article-category {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-category h3 {
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.article h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.article p {
+    margin-bottom: 1rem;
+    white-space: pre-line;
+}
+
+.article hr {
+    width: 80%;
+    height: 1px;
+    border: 1px solid #00aa9f;
+    margin: auto;
 }
