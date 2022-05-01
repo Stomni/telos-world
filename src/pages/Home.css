@@ -1,11 +1,12 @@
 body {
     height: 100%;
-    
+    overflow-x: hidden;
 }
 
 .home-screen::-webkit-scrollbar-track {
     background: black !important;
 }
+
 
 
 #title {
@@ -36,3 +37,12 @@ body {
     font-size: 1.3rem;
 }
 
+@media screen and (max-width: 900px) {
+    #title h1 {
+        font-size: 4rem;
+    }
+
+    #title h4 {
+        font-size: 1rem;
+    }
+}

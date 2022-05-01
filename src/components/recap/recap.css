@@ -19,7 +19,8 @@
 }
 
 .recap-content {
-    height: 300px;
+    min-height: 300px;
+    height: fit-content;
 }
 
 .recap-actions {
@@ -43,4 +44,16 @@
     transition-timing-function: ease-in-out;
     transition: 0.3s;
     color: #E2FFFC;
+}
+
+@media screen and (max-width: 900px) {
+    .recap-container {
+        margin: 1rem 5rem;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .recap-container {
+        margin: .5;
+    }
 }
