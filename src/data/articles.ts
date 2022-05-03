@@ -57,7 +57,7 @@ export const articleList: articles[] = [
       { name: "Edward Crazy Guy", desc: "Chemiker aus Esquillin" },
       { name: "Enlana", desc: "Drakezüchterin aus Aramore" },
       { name: "Feuerbart", desc: "Inhaber der Taverne Lavahöhle in Esquillin" },
-      { name: "Flex", desc: "Boss der Gehttos in Aramore" },
+      { name: "Flex", desc: "Boss der Ghettos in Aramore" },
       {
         name: "Gallan Galadriel",
         desc: "Inoffizieller Sherrif von Kriggan\nVerbannter Elf aus Aston",
@@ -109,7 +109,7 @@ export const articleList: articles[] = [
         name: "Silas Blanc",
         desc: "Inahber des Goldenen Libram\nEx-Kampfmagier des Imperiums",
       },
-      { name: "Selee die Entropie", desc: "Oberhautp des Widerstandes" },
+      { name: "Selee die Entropie", desc: "Oberhaupt des Widerstandes" },
       { name: "Tia", desc: "Inhaberin von Tias Glitzereien in Aramore" },
       { name: "Tempestax", desc: "Antiker Sturmdrachen" },
       {

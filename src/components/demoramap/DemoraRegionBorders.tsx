@@ -105,7 +105,7 @@ export function DemoraRegionBorders() {
         eventHandlers={{
           click: () => {
             setBorderListIndex(
-              territoryInfos.findIndex((element) => element.name === "Alephia")
+              territoryInfos.findIndex((element) => element.name === "Subarra")
             );
             setShowModal(true);
           },
