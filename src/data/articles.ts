@@ -16,7 +16,7 @@ export const articleList: articles[] = [
         name: "Arachin",
         desc: "Kindheitsfreund von Ben\nMitglied der Aternum Scorpio",
       },
-      { name: "Armaros", desc: "Teufel" },
+      { name: "Aarmaros", desc: "Teufel" },
       {
         name: "Arrin Winterspeer",
         desc: "Onkel von Gellea\nLebt derzeit in Coruscatio und bekämpf dort die Drachenwacht.",
@@ -130,7 +130,7 @@ export const articleList: articles[] = [
         name: "Violett Vac´azla",
         desc: "Kalashtar des Vac´atla Ordens in Aramore",
       },
-      { name: "Voragon", desc: "Dämon des Abyss" },
+      { name: "Voraagon", desc: "Dämon des Abyss" },
       {
         name: "William Heavenstein",
         desc: "Staatsfeind des Imperiums\nMeister von Cedric",
