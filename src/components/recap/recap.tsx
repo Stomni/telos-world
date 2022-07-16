@@ -4,7 +4,6 @@ import { recapData } from "../../data/recapData";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 export function Recap() {
   const listLength: number = recapData.length - 1;
   const [recapIndex, setRecapIndex] = useState(listLength);
@@ -16,7 +15,7 @@ export function Recap() {
       return {
         display: "visible",
         opacity: 0,
-        x: direction < 0 ? 1000: -1000,
+        x: direction < 0 ? 1000 : -1000,
       };
     },
     center: {
@@ -30,7 +29,7 @@ export function Recap() {
         display: "none",
         zIndex: 0,
         opacity: 0,
-        x: direction > 0 ? 1000: -1000,
+        x: direction > 0 ? 1000 : -1000,
       };
     },
   };
@@ -55,27 +54,43 @@ export function Recap() {
     }
   }
 
+  function toStart() {
+    if (recapIndex !== 0) {
+      index = 0;
+      setRecapIndex(index);
+      paginate(index);
+    }
+  }
+
+  function toLatest() {
+    if (recapIndex !== listLength) {
+      index = listLength;
+      setRecapIndex(index);
+      paginate(index);
+    }
+  }
+
   return (
     <div className="recap-container">
       <h5>Campaign Recap</h5>
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            className="recap-content"
-            layout="position"
-            key={recapIndex}
-            custom={direction}
-            variants={variants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-            transition={{
-              opacity: { duration: 0.3 },
-            }}
-          >
-            <motion.h6 layout="position">{recapData[recapIndex].title}</motion.h6>
-            <motion.p layout="position">{recapData[recapIndex].recap}</motion.p>
-          </motion.div>
-        </AnimatePresence>
+      <AnimatePresence initial={false} custom={direction}>
+        <motion.div
+          className="recap-content"
+          layout="position"
+          key={recapIndex}
+          custom={direction}
+          variants={variants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+          transition={{
+            opacity: { duration: 0.3 },
+          }}
+        >
+          <motion.h6 layout="position">{recapData[recapIndex].title}</motion.h6>
+          <motion.p layout="position">{recapData[recapIndex].recap}</motion.p>
+        </motion.div>
+      </AnimatePresence>
       <div className="recap-actions">
         <button
           onClick={() => prev()}
@@ -86,6 +101,26 @@ export function Recap() {
           }
         >
           Previous
+        </button>
+        <button
+          onClick={toLatest}
+          style={
+            recapIndex === 0
+              ? { opacity: "0", cursor: "default" }
+              : { opacity: "1", cursor: "pointer" }
+          }
+        >
+          Latest Ep.
+        </button>
+        <button
+          onClick={toStart}
+          style={
+            recapIndex === 0
+              ? { opacity: "0", cursor: "default" }
+              : { opacity: "1", cursor: "pointer" }
+          }
+        >
+          First Ep.
         </button>
         <button
           onClick={() => next()}
