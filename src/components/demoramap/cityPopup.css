@@ -9,6 +9,10 @@
     font-size: 20px;
 }
 
+.city-infos h3 {
+    text-align: center;
+}
+
 .city-infos li {
     font-size: 14px;
 }

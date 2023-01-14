@@ -159,6 +159,10 @@ export const articleList: articles[] = [
     ],
   },
   {
+    category: "Städte",
+    topics: [{ name: "Solime", desc: "Solime ist ein ehemaliger Außenposten der Elfen, der vor ca. 70 Jahren von den meisten Elfen verlassen wurde. Aufgrund der elfischen Medizin kamen viele Menschen aus dem Feuerreich dort hin um sich behandeln zu lassen. Viele der Menschen blieben und gründet mit den Elfen ein neues Zuhause. Heute ist Solime die Technologische Hochburg von Demora, ein Paradies für Künstler, Tüftler und Erfinder. Dank der Gilde Astrada hat die Stadt eine neue Energiequelle entdeckt, welches Ihnen erlaubt neue Technologische Wunderwerke zu erschaffen." }],
+  },
+  {
     category: "Spieler Charakter",
     topics: [
       {

@@ -92,46 +92,50 @@ export function Recap() {
         </motion.div>
       </AnimatePresence>
       <div className="recap-actions">
-        <button
-          onClick={() => prev()}
-          style={
-            recapIndex === listLength
-              ? { opacity: "0", cursor: "default" }
-              : { opacity: "1", cursor: "pointer" }
-          }
-        >
-          Previous
-        </button>
-        <button
-          onClick={toLatest}
-          style={
-            recapIndex === 0
-              ? { opacity: "0", cursor: "default" }
-              : { opacity: "1", cursor: "pointer" }
-          }
-        >
-          Latest Ep.
-        </button>
-        <button
-          onClick={toStart}
-          style={
-            recapIndex === 0
-              ? { opacity: "0", cursor: "default" }
-              : { opacity: "1", cursor: "pointer" }
-          }
-        >
-          First Ep.
-        </button>
-        <button
-          onClick={() => next()}
-          style={
-            recapIndex === 0
-              ? { opacity: "0", cursor: "default" }
-              : { opacity: "1", cursor: "pointer" }
-          }
-        >
-          Next
-        </button>
+        <div className="recap-action-buttons">
+          <button
+            onClick={() => prev()}
+            style={
+              recapIndex === listLength
+                ? { opacity: "0", cursor: "default" }
+                : { opacity: "1", cursor: "pointer" }
+            }
+          >
+            Previous
+          </button>
+          <button
+            onClick={toLatest}
+            style={
+              recapIndex === listLength
+                ? { opacity: "0", cursor: "default" }
+                : { opacity: "1", cursor: "pointer" }
+            }
+          >
+            {"Ep."+ (listLength+1)}
+          </button>
+        </div>
+        <div className="recap-action-buttons">
+          <button
+            onClick={toStart}
+            style={
+              recapIndex === 0
+                ? { opacity: "0", cursor: "default" }
+                : { opacity: "1", cursor: "pointer" }
+            }
+          >
+            {"Ep.1"}
+          </button>
+          <button
+            onClick={() => next()}
+            style={
+              recapIndex === 0
+                ? { opacity: "0", cursor: "default" }
+                : { opacity: "1", cursor: "pointer" }
+            }
+          >
+            Next
+          </button>
+        </div>
       </div>
     </div>
   );

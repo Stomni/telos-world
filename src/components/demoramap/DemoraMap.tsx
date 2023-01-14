@@ -15,12 +15,12 @@ const bounds: [[number, number], [number, number]] = [
   [4960, 7016],
 ];
 
-function DemoraMap(props: any) {
+function DemoraMap() {
   return (
     <MapContainer
       crs={L.CRS.Simple}
       minZoom={-3}
-      maxZoom={3}
+      maxZoom={0}
       zoom={0}
       bounds={bounds}
       id="map-container"
@@ -28,6 +28,8 @@ function DemoraMap(props: any) {
     >
       <ZoomControl position="bottomright" />
       <ImageOverlay
+      alt="continent map of Demora"
+
         url="demora-clean-color.png"
         bounds={bounds}
         interactive={true}

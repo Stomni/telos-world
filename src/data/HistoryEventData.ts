@@ -39,7 +39,7 @@ export const historyEventData: Event[] = [
   { title: "Neue Titanen", date: "200 a.L (after Lazarus)", desc: "Durch die permanente Abwesenheit der Götter fließt nach und nach immer mehr Aether, die Macht der Titanen, über die Verbindungen der Elementaren Planes nach Telos. Was zur Erschaffung neuer Titanen führt doch in anderer Form als die ersten Titanen es waren. Sie lebten unter der Bewohnern und neu aufblühenden Dörfern und Städten nach dem Kataklysmus. Einige von den neuen Titanen hinterließen bleibende Eindrücke, so wurde ein ganzes Reich nach der Titanin Salona geführt.",},
   { title: "Asche Fall", date: "400 a.L", desc: "Durch Experimente mit Aether gelangen es Arkanisten aus dem Feuerreich eine Kreatur zu erschaffen, welche das Reich zu großem Ruhm führen sollte, doch es führte zum größten Fehler in der Geschichte des Feuerreiches. Die Kreatur geriet außer Kontrolle und zerstörte einen groß Teil des nördlichen Feuerreichs und die gesammte Borras Region und hüllte diese in Asche ein.", place: "Feurerreich/Borras Region" },
   {
-    title: "Palatin erhebt sich",
+    title: "Palatins Aufstieg",
     date: "500 a.L",
     place: "Demora",
     desc: "Colton Lacrius, der letzte König von Palatin, beendete die köngliche Herrschaft, in dem er Emery Decia, die Befehlshaberin des Militärapparats die Macht übergab. Er wollte das die Stärkste Person das Volk führt. Mit diesem Kodex begann die Ausbreitung des Palatinschen Reiches und durch die militärische Überlegenheit wurde andere Städte und Dörfer entwede einfach überrant oder schließen sich ohne Gegenwehr dem neuen Imperium an.",
@@ -51,11 +51,11 @@ export const historyEventData: Event[] = [
     place: "Thracian",
   },
   {
-    title: "Feuriger Stahl",
+    title: "Apex Krieg",
     date: "1072 a.L",
     place: "Demora",
     timeSpan: "5 Jahre",
-    desc: "Auf Demora kristallisierten sich mit der Zeit die großen Nationen des Kontinents herraus. Zwischen ihnen herrschte größten Teils frieden, doch Palatin und das Feuerreich gerieten immer wieder in einen Konflikt. Dieser führte zu einem Krieg in Zentrum von Demora, unter dem Gebirge des Titanen Rückens.",
+    desc: "Auf Demora kristallisierten sich mit der Zeit die großen Nationen des Kontinents herraus. Zwischen ihnen herrschte größten Teils frieden, doch Palatin und das Feuerreich gerieten immer wieder in einen Konflikt. Dies führte zu einem direkt Krieg zwischen den dem Palatinischen Imperium und dem Feuerreich von Salona, die größte Schlacht fand unter dem Titanen Rücken Gebirge stat.",
   },
   {
     title: "Frieden zwischen Feuer und Stahl",

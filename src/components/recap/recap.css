@@ -24,7 +24,15 @@
 }
 
 .recap-actions {
+    width: 100%;
     padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recap-action-buttons {
+    gap: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
